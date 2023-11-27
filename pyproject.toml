@@ -6,10 +6,14 @@ authors = ["CodingJelle <jellevbarneveld@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "<3.12,>=3.10"
 pandas = "^2.1.3"
 numpy = "^1.26.2"
 torch = "^2.1.1"
+mads-datasets = "^0.3.10"
+mltrainer = "^0.1.11"
+torch-utils = "^0.1.2"
+pillow = "^10.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
